@@ -1,0 +1,69 @@
+//main: ../style.less
+
+.reviews{
+
+    background: #332F30 url("../images/revievsBg.png") center no-repeat;
+    
+    padding: 4.6rem 0;
+
+    position: relative;
+}
+    .reviews__item{
+        width: 100%;
+        max-width: 830px;
+        margin: 0 auto;
+    }
+
+    .reviews__text{
+        font-size: 14px;
+        font-weight: 400;
+        color:@white;
+        line-height: 2.2;
+        text-align: center;
+    }
+.reviews__photo{
+    display: block;
+    margin: 0 auto 0.6rem;
+
+
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    border: 4px solid #EFEFEF;
+}
+
+.reviews__author{
+    width: 100%;
+    text-align: center;
+    margin-top: -51px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.reviews__name{
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color:@black;
+
+}
+
+.reviews__company{
+    margin-bottom: 0.4rem;
+    font-weight: 300;
+    font-size: 14px;
+    color: @gray;
+    font-style: italic;
+}
+
+.reviews__star{
+    width: 13px;
+    height: 13px;
+
+    &--unactive{
+        opacity: 0.5;
+    }
+}
